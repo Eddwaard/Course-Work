@@ -67,7 +67,7 @@ public class Main {
         System.out.println("Список всех сотрудников со всеми имеющимися по ним данными.");
         getAll(employees);
         printSeparator();
-        System.out.println("Посчитать сумму затрат на все зарплаты в месяц.");
+        System.out.println("Посчитать сумму затрат на все зарплаты в месяц!");
         System.out.println(getAllSalaries(employees));
         printSeparator();
         System.out.println("Найти сотрудника с минимальной зарплатой.");
