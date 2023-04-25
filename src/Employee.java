@@ -36,6 +36,10 @@ public class Employee {
         this.salary = salary;
     }
 
+    public static int getCount() {
+        return count;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -47,5 +51,3 @@ public class Employee {
     }
 
 }
-
-
